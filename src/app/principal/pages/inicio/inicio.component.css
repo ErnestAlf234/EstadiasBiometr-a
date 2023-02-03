@@ -1,5 +1,84 @@
-
 .boxColores {
+   position: absolute;
+    /* left: 50px; */
+   /* right: 90px;  */
+   top: 7.55%;
+   bottom: 83.59%;
+   background-color: #1D3235;
+   text-align: center;
+}
+.titulos{
+   top: 7.55%;
+   bottom: 83.98%;
+   font-family: 'Public Sans';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 28px;
+   line-height: 38px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   color: #FFFFFF;
+   justify-content: space-around;
+}
+.boxColores{
+   display: flex;
+   place-content: flex-start flex-start;
+}
+
+@media only screen and (min-width: 360px) and (max-width:1440px) {
+   .boxColores {
+       background: #1D3235;
+       left: 10.28%;
+       right: 9.72%;
+       top: 5.62%;
+       bottom: 85.47%;
+   }
+   .titulos{
+       font-size: 10px;
+       margin-left: 50px;
+   }
+   .imgsT{margin-left: 10%}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+   .boxColores {
+       background: #1D3235;
+       left: 5.28%;
+       right: 5.72%;
+       top: 5.62%;
+       bottom: 85.47%;
+   }
+   .titulos{
+       font-size: 18px;
+       margin-left: 20%;
+   }
+   .imgsT{margin-left: 50%;}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+   .boxColores {background: #1D3235;}
+   .titulos{font-size: 30px;}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+   .boxColores {
+       background: #1D3235;
+       width: 40%;
+       left: 58.05%;
+       right: 2.34%;
+   }
+   .titulos{
+       font-size: 20px;
+       margin-left: 5px;
+   }
+}
+/* Fin de la leyenda lateral izquierdo */
+
+/* .boxColores {
      position: absolute;
     left: 41.3%; 
     right: 53.3%;    
@@ -11,7 +90,7 @@
     
     
 
-  }
+  } */
 
   .frontalFace{
    font-family: 'Public Sans', sans-serif;
@@ -21,23 +100,6 @@
    
 
 }
-/* Responsivo titulo */
-@media only screen and (min-width: 0px) and (max-width:1440px) {
-   .boxColores {
-      width: 50%;
-      /* position: absolute;  */
-      align-items: flex-start;
-
- 
-   }
-  h2 .titulos{
-      font-size: 5% 1rem;
-      align-items: flex-start;
-      
-
-   }
-   
- }
 
  
 
@@ -53,22 +115,6 @@
   }
  
 
-  .titulos{
-
-    top: 7.55%;
-    bottom: 83.98%;
-    font-family: 'Public Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 38px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    
-    color: #FFFFFF;
-
-  }
 
   /* .imgsT{
     position: fixed;

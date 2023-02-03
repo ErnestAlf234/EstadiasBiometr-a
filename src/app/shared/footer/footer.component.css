@@ -1,19 +1,26 @@
 
-.footer{
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+ footer {
     position: relative;
-    height: 100%;
-    min-height: 100%;
-    flex-direction: column;
-
+    /* Altura total del footer en px con valor negativo */
+    margin-top: auto;
+    /* Altura del footer en px. Se han restado los 5px del margen
+       superior mas los 5px del margen inferior
+    */
+    height: 40px;
+    padding: 5px 0px;
+    /* background: #286af0; */
+    bottom: 0;
+    text-align:right;
+    color: #fff;
 }
 img{
     width: 222px;
     height: 86px;
 
 }
-footer{
-    margin-top: auto;
+@media only screen and (min-width: 360px) and (max-width:712px) {
+    footer{
+        text-align: center;
+        bottom: 0;
+    }
 }
