@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@200&display=swap');
+/* Icono casa */
+
+.colorModulo{
+    background-color: rgba(133,171,170,255);
+    width: 45px;
+    height: 52px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+.house{
+    width:  32px;
+    height: 30px;
+    
+}
+.colorIconos{
+    fill: #ffffff !important;
+}
+
+/* Titulo descriptivo */
+.titlesPrimero{
+    background: rgba(61,78,85,255);
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-size: 25px;
+
+}
+/* Engrane */
+.engrane{
+    position: relative;
+    left: 84.00%;
+
+}
+
+.figuraFinal{
+    height: 25px;
+    width: 25px;
+}
+
+.frontalFace{
+    background: #1D3235;
+    font-family: 'Public Sans', sans-serif;
+
+    font-style: normal;
+    font-size: 25px;
+    line-height: 37.6px;
+
+}
+.ghost{
+    width:  32px;
+    height: 30px;
+    position: sticky;   
+}
+.expansionTitle{
+    width: 712px;
+
+}
+
+/* Drag Image */
+.drag{
+    margin: 0;
+    padding: 0;
+    width: 610px;
+    box-sizing: border-box;
+    font-family: 'Public Sans', sans-serif;
+    color: black;
+}
+.dragger{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbfbfb;
+}
+#dragger_wraper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #80BFC0;
+    padding: 20px;
+    border-radius: 10px;
+}
+#dragger{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px dashed #fbfbfb;
+    background-color: #80BFC0;
+    border-radius: 10px;
+}
+.icon{
+    color: #1D3235;
+    font-size: 100px;
+    margin: 10px 0;
+}
+h2, h3 {
+    margin: 5px 0;
+    color: #1D3235;
+}
+#filename{
+    width: 100px;
+    margin: 10px 0 0 0;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.browsefileBtn{
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #80BFC0;
+    cursor: pointer;
+
+}
+
+/* Responsivo Dragger */
+@media only screen and (min-width: 0px) and (max-width:800px) {
+    .drag{
+        width: 390px;
+    }
+    #dragger{
+        width: 400px;
+        height: 380px;
+    }
+  
+    
+  }
+ 
+/* Input file */
