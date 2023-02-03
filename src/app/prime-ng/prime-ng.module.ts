@@ -7,13 +7,15 @@ import {MenubarModule} from 'primeng/menubar';
 import {FieldsetModule} from 'primeng/fieldset';
 
 
+
 @NgModule({
   
   exports:[
     ButtonModule,
     CardModule,
     FieldsetModule,
-    MenubarModule
+    MenubarModule,
+
   ],
 
 })

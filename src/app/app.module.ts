@@ -10,6 +10,7 @@ import { PrincipalModule } from './principal/principal.module';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent

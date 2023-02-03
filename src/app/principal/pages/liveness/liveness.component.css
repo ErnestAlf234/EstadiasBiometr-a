@@ -117,7 +117,10 @@ h2, h3 {
     cursor: pointer;
 
 }
-
+/* Espacio entre componentes */
+.padd{
+    padding-top: 10rem;
+   }
 /* Responsivo Dragger */
 @media only screen and (min-width: 0px) and (max-width:800px) {
     .drag{
@@ -131,4 +134,186 @@ h2, h3 {
     
   }
  
-/* Input file */
+/*  Todo Código relativo Brandon */
+.bts{
+    /* position: absolute; */
+    /* left: 4.45%;
+    right: 44.3%;
+    top: 62.89%;
+    bottom: 31.51%; */
+ 
+    background: rgba(29, 35, 36, 0.79);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    width: 600px;
+    height: 35px;
+ 
+ }
+ .texb{
+    /* position: fixed; */
+    /* left: 21.56%;
+    right: 57.19%;
+    top: 62.89%;
+    bottom: 30.08%; */
+ 
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+ 
+    color: #FFFFFF;
+ }
+ .box{
+    box-sizing: border-box;
+ 
+    /* position: absolute; */
+    flex-direction: row;
+    /* Todo pendiente */
+    /* left: 56.72%;
+    right: 33.59%;
+    top: 62.89%;
+    bottom: 31.64%; */
+ 
+    background: rgba(29, 50, 53, 0.44);
+    border: 0.395349px solid #FFFFFF;
+    border-radius: 2.37209px;
+    display: grid;
+    place-content: center;
+ 
+ }
+ 
+ .grid-1{
+    box-sizing: border-box;
+    background: #BEDEDE;
+    border: 1px solid #FFFFFF;
+    box-shadow: 6px 9px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    place-content: flex-start flex-start;
+ }
+ .but2{
+    /* position: absolute; */
+    /* left: 67.81%;
+    right: 10.78%;
+    top: 63.41%;
+    bottom: 32.03%;
+    width: 360px; */
+ 
+    background: rgba(0, 0, 0, 0.53);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    display: flex;
+    place-content: flex-start flex-start;
+ }
+ .bloct{
+    /* position: fixed; */
+    /* left: 68.36%;
+    right: 10.39%;
+    top: 63.93%;
+    bottom: 29.82%; */
+ 
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+ 
+    color: #FFFFFF;
+    display: flex;
+    place-content: flex-start flex-start;
+ }
+ .bloc{
+    box-sizing: border-box;
+ 
+    /* position: absolute; */
+    flex-direction: row;
+    /* left: 90.62%;
+    right: 1.09%;
+    top: 63.41%;
+    bottom: 32.03%; */
+ 
+    background: rgba(29, 50, 53, 0.44);
+    border: 0.5px solid #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    display: grid;
+    place-content: center;
+ }
+ .pS{
+    /* position: flex; */
+    /* left: 67.58%;
+    right: 21.8%;
+    top: 72.53%;
+    bottom: 23.83%; */
+ 
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+ 
+    color: #FFFFFF;
+    display: flex;
+    place-content: flex-start flex-start;
+ }
+ .pP{
+    /* position: flex; */
+    /* left: 69.3%;
+    right: 18.28%;
+    top: 76.82%;
+    bottom: 19.01%; */
+ 
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+ 
+    color: #FFFFFF;
+    display: flex;
+    place-content: flex-start flex-start;
+ }
+ .pI{
+    /* position: flex; */
+    /* left: 67.89%;
+    right: 14.06%;
+    top: 81.51%;
+    bottom: 12.89%; */
+ 
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+ 
+    color: #FFFFFF;
+    display: flex;
+    place-content: flex-start flex-start;
+ }
+ .grid2{
+    /* position: absolute; */
+    /* left: 67.81%;
+    right: 1.25%;
+    top: 69.53%;
+    bottom: 11.2%; */
+ 
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)), linear-gradient(91.44deg, #6A9FB9 -8.24%, #1D3235 121.15%);
+    box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    display: flex;
+    place-content: flex-start flex-start;
+ }
+ 
+ 
+ 

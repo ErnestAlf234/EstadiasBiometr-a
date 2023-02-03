@@ -4,6 +4,7 @@ import { InicioComponent } from './pages/inicio/inicio.component';
 import { PrimeNgModule } from '../prime-ng/prime-ng.module';
 import { LivenessComponent } from './pages/liveness/liveness.component';
 import { SharedModule } from '../shared/shared.module';
+import {ScrollPanelModule} from 'primeng/scrollpanel';
 
 
 
@@ -19,7 +20,8 @@ import { SharedModule } from '../shared/shared.module';
   imports: [
     CommonModule,
     PrimeNgModule,
-    SharedModule
+    SharedModule,
+    ScrollPanelModule
 
   ]
 })
